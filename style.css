@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+
+
+}
+body{
+    text-align: center;
+    background-color: rgb(163, 154, 154);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#wrapper{
+    background-color: burlywood;
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    color: black;
+}
+#wrapper h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 5px;
+}
+#wrapper div{
+    text-align: center;
+    padding: 20px;
+}
+label{
+    margin-bottom: 15px;
+
+}
+input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+input:focus{
+    outline: none;
+    font-size:medium;
+    caret-color: blueviolet;
+}
+#btn{
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
